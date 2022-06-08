@@ -1,0 +1,55 @@
+
+body{
+    background: #F7F5EE;
+}
+
+.text-theme{
+    color: #D88E00;
+    /* color: #A77603; */
+}
+
+.footer ul{
+    list-style: none;
+    display: flex;
+}
+
+.footer ul a{
+    color: gray;
+    padding: 0 10px;
+    border-left: 2px solid rgba(0, 39, 33, 0.1);
+    white-space: nowrap;
+    text-decoration:none;
+}
+
+.footer ul a:hover{
+    color: black;
+}
+
+.footer ul li:first-child a{
+    border: none;
+    padding-left:0;
+}
+
+
+/* 改container最大寬度 */
+@media (min-width: 1200px) {
+    .container, .container-sm, .container-md, .container-lg, .container-xl {
+        max-width: 960px;
+    }
+}
+
+
+/* 不讓內容被 navbar 遮住 */
+/* body {
+    padding-top: 100px;
+} */
+
+
+
+/* back to top 按鈕位置 */
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+}
