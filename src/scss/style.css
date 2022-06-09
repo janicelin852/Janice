@@ -39,13 +39,6 @@ body{
 }
 
 
-/* 不讓內容被 navbar 遮住 */
-/* body {
-    padding-top: 100px;
-} */
-
-
-
 /* back to top 按鈕位置 */
 .back-to-top {
     position: fixed;
