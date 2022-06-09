@@ -1,9 +1,9 @@
 
 // control navbar
-if(document.title == 'Janice Lin | Portfolio'){
+if(document.title == 'Janice Lin | Portfolio' || document.title == 'EMS | Janice Lin'){
     document.getElementById("menu_work").classList.add('active');
 
-}else if(document.title == 'About'){
+}else if(document.title == 'About | Janice Lin'){
     document.getElementById("menu_about").classList.add('active');
 
 }
