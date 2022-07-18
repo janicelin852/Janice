@@ -1,6 +1,6 @@
 
 // control navbar
-if(document.title == 'Janice Lin | Portfolio' || document.title == 'EMS | Janice Lin'){
+if(document.title == 'Janice Lin | Portfolio' || document.title == 'EMS | Janice Lin' || document.title == 'Remote IO App | Janice Lin'  || document.title == 'Smart Tunnel Light | Janice Lin'){
     document.getElementById("menu_work").classList.add('active');
 
 }else if(document.title == 'About | Janice Lin'){
