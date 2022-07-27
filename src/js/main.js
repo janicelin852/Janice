@@ -70,7 +70,7 @@ list.forEach((item,index) => {
 // 如果不是第一頁
 if(page_index != 0){
   document.getElementById('prev').href = list[page_index - 1].src;
-  document.getElementById('prev').text = list[page_index - 1].btn;
+  document.getElementById('text_prev').innerText = list[page_index - 1].btn;
 
 // 如果是第一頁 前一頁按鈕消失
 }else{
@@ -80,7 +80,7 @@ if(page_index != 0){
 // 如果不是最後一頁
 if(page_index != list.length - 1){
   document.getElementById('next').href = list[page_index + 1].src;
-  document.getElementById('next').text = list[page_index + 1].btn;
+  document.getElementById('text_next').innerText = list[page_index + 1].btn;
 
 // 如果是最後一頁 下一頁按鈕消失
 }else{
