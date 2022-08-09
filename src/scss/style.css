@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 body{
     background: #F7F5EE;
+    font-family: 'Poppins', sans-serif;
+}
+
+.text-title{
+    font-family: 'Playfair Display', serif;
 }
 
 .text-theme{
