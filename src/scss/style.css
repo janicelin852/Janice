@@ -5,6 +5,19 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+.pb-6{
+    padding-bottom: 4.5rem !important;
+}
+
+.pb-7{
+    padding-bottom: 6rem !important;
+}
+
+.pb-8{
+    padding-bottom: 8rem !important;
+}
+
+
 .text-title{
     font-family: 'Playfair Display', serif;
 }
