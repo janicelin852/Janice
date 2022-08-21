@@ -32,8 +32,7 @@
         <div class="row justify-content-between">
             <div class="col-12 col-md-6">
                 <p class="lh-lg">
-                    Remote I/O has been used in many applications such as water tank depth, alarm switch, energy management system, etc. It supports Multiple types of inputs and outputs.
-Use Oring Remote I/O App, you can quickly and easily maintain, diagnose, operate and monitor by your smartphone.
+                    Remote IO has been employed in a variety of applications, including water tank depth, alarm switch, energy management system, and so on. It accepts a variety of inputs and outputs. Using the Oring Remote IO App, you can effortlessly manage, diagnose, operate, and monitor your device from your smartphone.
                 </p>
 
             </div>
@@ -56,7 +55,7 @@ Use Oring Remote I/O App, you can quickly and easily maintain, diagnose, operate
                 <h4 class="fw-bold pb-3">Goals</h4>
                 <ul class="lh-lg">
                     <li>
-                        Build a Remote I/O App
+                        Build a Remote IO App
                     </li>
                     <li>
                         Build and iterate App UI library
@@ -74,7 +73,7 @@ Use Oring Remote I/O App, you can quickly and easily maintain, diagnose, operate
                 <h4 class="fw-bold pb-3">Challenges</h4>
                 <ul class="lh-lg">
                     <li>
-                        To understand Modbus table and protocol
+                        Understanding Modbus tables and protocols, which are far off from my own field
                     </li>
                     <li>
                         Build and iterate UI library for app at the same time
@@ -102,13 +101,11 @@ Use Oring Remote I/O App, you can quickly and easily maintain, diagnose, operate
             <div class="col-12">
                 <h4 class="fw-bold pb-3">Understand & Research</h4>
                 <p class="lh-lg">
-                    Understanding similar projects in the past and clarify the meaning of each address from hardware engineer. I conducted a competitive analysis of the product structure to understand the structure of the competitor during the Bluetooth connection.
-                </p>
+                    Understanding previous projects and clarifying the significance of each address from the firmware engineer I performed a competitive study of the product structure to better understand the competitor's structure during the Bluetooth connection.                </p>
                 <p class="lh-lg">
-                    Some competitors have Web and App in similar products, however this analysis is mainly focused on App. From the competition, I found three patterns, the first is to separate the functions; the second is to put the functions together, output and input are separated on the UI; and the third is to put them all together.
-                </p>
+                    Some competitors provide both Web and App in comparable goods, but this research focuses solely on App. I discovered three patterns in the competition: the first is to divide all functions; the second is to combine all functions, with output and input separated on the UI; and the third is to combine them altogether.                </p>
                 <p class="lh-lg">
-                    Considering the possible increase of input and output in future, we decided to separate input and output on UI in order to reduce the waiting time for users, while the parameter is intuitively clicked into the inner page.
+                    With the possibility of increased input and output in the future, we determined to separate input and output to save user waiting time.
                 </p>
                 <img src="../../asset/img/RemoteIO/RemoteIO_competitiveanalysis2.jpg" class="img-fluid mx-auto d-block pb-3" alt="">
             </div>
@@ -122,7 +119,7 @@ Use Oring Remote I/O App, you can quickly and easily maintain, diagnose, operate
             <div class="col-12">
                 <h4 class="fw-bold pb-3">Define System Framework</h4>
                 <p class="lh-lg">
-                    Integrate the practical experience of hardware and software enigneers, as well as the common using patten and user interface. I organize the information architecture of Remote I/O app. And use wireflow to confirm the framework and flow of app.                
+                    Integrate firmware and software engineers' practical experience, as well as common design patterns. I manage the Remote IO app's information architecture. Also, utilize wireflow to check the app's flow.
                 </p>
                 <p class="fs-6 fw-bold pt-4">
                     Information Architecture
@@ -144,11 +141,9 @@ Use Oring Remote I/O App, you can quickly and easily maintain, diagnose, operate
             <div class="col-12">
                 <h4 class="fw-bold pb-3">Design</h4>
                 <p class="lh-lg">
-                    Here is a big challenge for me to design Remote I/O app and build ui library for app at the same time. To build app ui library, I gathered all app design pattern and ui component in the past. Organizing a base version, then iterate when designing. It helped me to build user interface quickly.
-                </p>
+                    It is a significant task for me to construct a Remote IO app while also built design system for app. I gathered all previous app design patterns and ui components. After organizing a base version, I designed iteratively. It helps me in building user interfaces quickly.                </p>
                 <p>
-                    The most important thing to note is that using bluetooth connection. It read address one by one, so we have to consider the time that user waiting.                
-
+                    The most important thing to remember is that the app and the goods are linked via Bluetooth. Because it reads addresses one by one, we must account for the time the user waits.
                 </p>
 
                 <img src="../../asset/img/RemoteIO/RemoteIO.gif" class="img-fluid mx-auto d-block pb-3" alt="">
@@ -163,10 +158,10 @@ Use Oring Remote I/O App, you can quickly and easily maintain, diagnose, operate
         <div class="row">
             <div class="col-12 pb-3">
                 <p class="lh-lg">
-                    Understanding the Modbus table was a big challenge for me in this project. I work with hardware and software engineers to understand the meaning of all the register address and use life experience as an analogy.  In addition, the limitations and applications of using Bluetooth connectivity is another field that need to attention. Knowing this helps me with my designs and proposals.              
+                    Understanding the Modbus table proved to be a significant issue for me in this project. I collaborate with firmware and software developers to identify the significance of each register address and use personal experience as an analogy. Another area that requires study is the limitations and uses of Bluetooth communication. This knowledge helps me with my designs and proposals.
                 </p>
                 <p class="lh-lg">
-                    It was the first time I made a product that needed to enter Engineering mode, and I felt very fresh. In addition to the apparent users, the product also needs to have hidden functions for engineering staff or QA testing, and the use of the orientation is very different.  This project gave me experience in engineering pattern design, which will help in designing testing and troubleshooting features in the future.                
+                    It was the first time I had created a product that required entering Engineering mode, and I was quite excited. In addition to the obvious users, the product must contain hidden features for technical personnel, and the orientation must be considerably different. This project provided me with expertise in engineering pattern creation, which will benefit me in the future when building testing and debugging features.
                 </p>
             </div>
         </div>
