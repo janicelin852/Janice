@@ -86,3 +86,6 @@ if(page_index != list.length - 1){
 }else{
   document.getElementById('next').style['display'] = 'none';
 }
+
+
+

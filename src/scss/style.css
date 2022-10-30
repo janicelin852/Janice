@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 body{
-    background: #F7F5EE;
+    background: #ffffff;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -17,6 +17,12 @@ body{
     padding-bottom: 8rem !important;
 }
 
+.bg-orange{
+    background: #F7F5EE ;
+}
+.bg-blue{
+    background: #F2F1FF ;
+}
 
 .text-title{
     font-family: 'Playfair Display', serif;
@@ -24,8 +30,8 @@ body{
 
 .text-theme{
     color: #D88E00;
-    /* color: #A77603; */
 }
+
 
 .footer ul{
     list-style: none;
@@ -50,7 +56,7 @@ body{
 }
 
 
-/* 改container最大寬度 */
+/* 改container最大寬度 */ 
 @media (min-width: 1200px) {
     .container, .container-sm, .container-md, .container-lg, .container-xl {
         max-width: 960px;

@@ -13,157 +13,184 @@
     <!-- Icon -->
     <script src="../js/siteicon.js"></script>
 
-    <title>Remote IO App | Janice Lin</title>
+    <!-- JQ i18n -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.i18n.properties.js"></script>
+    
+    <!-- title -->
+    <title></title>
+
 </head>
 <body>
     <!-- nav bar -->
     <script src="../js/navbar.js"></script>
 
-
     <!-- content -->
     <!-- title & image -->
     <div class="container pb-5">
-        <h3 class="fw-bold mb-4">Remote IO App</h3>
+        <h3 class="fw-bold mb-4" data-lang="project_2/project_title"></h3>
         <img src="../../asset/img/RemoteIO/RemoteIO_cover.jpg" class="img-fluid mx-auto d-block" alt="...">
     </div>
 
     <!-- intro & role -->
-    <div class="container pb-5">
-        <div class="row justify-content-between">
-            <div class="col-12 col-md-6">
-                <p class="lh-lg">
-                    Remote IO has been employed in a variety of applications, including water tank depth, alarm switch, energy management system, and so on. It accepts a variety of inputs and outputs. Using the Oring Remote IO App, you can effortlessly manage, diagnose, operate, and monitor your device from your smartphone.
-                </p>
-
-            </div>
-            <div class="col-12 col-md-5">
-                <p class="fw-bold">Team</p>
-                <p>1 PM, 2 App Developers, 1 Firmware Developer</p>
-                <p class="fw-bold">Role</p>
-                <p>UI/UX Designer</p>
-                <p class="fw-bold">Time</p>
-                <p>2022</p>
+    <div class="py-5">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-12 col-md-6">
+                    <p class="fw-bold" data-lang="project_2/team"></p>
+                    <p data-lang="project_2/team_text"></p>
+                    <p class="fw-bold" data-lang="project_2/role"></p>
+                    <p data-lang="project_2/role_text"></p>
+                    <p class="fw-bold" data-lang="project_2/time"></p>
+                    <p data-lang="project_2/time_text"></p>
+                </div>
+                <div class="col-12 col-md-6">
+                    <p class="fw-bold" data-lang="project_2/contribution"></p>
+                    <ul class="lh-lg">
+                        <li data-lang="project_2/contribution_1"></li>
+                        <li data-lang="project_2/contribution_2"></li>
+                        <li data-lang="project_2/contribution_3"></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
 
+    <!-- Background & Problem -->
+    <div class="bg-orange py-5">
+        <div class="container ">
+            <div class="row">
+                <div class="col-12">
+                    <h4 class="fw-bold pb-3" data-lang="project_2/background"></h4>
+                    <p class="lh-lg" data-lang="project_2/background_text_1"></p>
+                </div>
+            </div>
+        </div>
+    </div>
 
-    <!-- goals -->
-    <div class="container pb-5">
-        <div class="row">
-            <div class="col-12">
-                <h4 class="fw-bold pb-3">Goals</h4>
-                <ul class="lh-lg">
-                    <li>
-                        Build a Remote IO App.
-                    </li>
-                    <li>
-                        Build and iterate App UI library.
-                    </li>
-                </ul>
+    <!-- result -->
+    <div class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h4 class="fw-bold pb-3" data-lang="project_2/result"></h4>
+                    <h5 class="lh-lg fw-bold" data-lang="project_2/result_title_1"></h5>
+                    <p class="lh-lg  pb-3" data-lang="project_2/result_text_1"></p>
+                    <h5 class="lh-lg fw-bold" data-lang="project_2/result_title_2"></h5>
+                    <p class="lh-lg pb-3" data-lang="project_2/result_text_2"></p>
+                    <img src="../../asset/img/RemoteIO/RemoteIO.gif" class="img-fluid mx-auto d-block pb-3" alt="">
+                </div>
             </div>
         </div>
     </div>
 
 
     <!-- challenge -->
-    <div class="container pb-5">
-        <div class="row">
-            <div class="col-12">
-                <h4 class="fw-bold pb-3">Challenges</h4>
-                <ul class="lh-lg">
-                    <li>
-                        Understanding Modbus tables and protocols, which are far off from my own field.
-                    </li>
-                    <li>
-                        Build and iterate UI library for app at the same time.
-                    </li>
-                </ul>
+    <div class="bg-orange py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h4 class="fw-bold pb-3" data-lang="project_2/challenge"></h4>
+                    <h5 class="lh-lg fw-bold" data-lang="project_2/challenge_title_1"></h5>
+                    <p class="lh-lg pb-3" data-lang="project_2/challenge_text_1"></p>
+                    <h5 class="lh-lg fw-bold" data-lang="project_2/challenge_title_2"></h5>
+                    <p class="lh-lg" data-lang="project_2/challenge_text_2"></p>
+                </div>
             </div>
         </div>
     </div>
 
 
     <!-- Process -->
-    <div class="container pb-5">
-        <div class="row">
-            <div class="col-12">
-                <p class="fs-4 fw-bold pb-3">Process</p>
-                <img src="../../asset/img/RemoteIO/RemoteIO_process.jpg" class="img-fluid mx-auto d-block pb-3" alt="EMS_process">
+    <div class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p class="fs-4 fw-bold pb-3" data-lang="project_2/process"></p>
+                    <img src="../../asset/img/RemoteIO/RemoteIO_process.jpg" class="img-fluid mx-auto d-block pb-3" alt="EMS_process">
+                </div>
             </div>
         </div>
     </div>
-
 
     <!-- Understand & Research -->
-    <div class="container pb-5">
-        <div class="row">
-            <div class="col-12">
-                <h4 class="fw-bold pb-3">Understand & Research</h4>
-                <p class="lh-lg">
-                    Understanding previous projects and clarifying the significance of each address from the firmware engineer I performed a competitive study of the product structure to better understand the competitor's structure during the Bluetooth connection.                </p>
-                <p class="lh-lg">
-                    Some competitors provide both Web and App in comparable goods, but this research focuses solely on App. I discovered three patterns in the competition: the first is to divide all functions; the second is to combine all functions, with output and input separated on the UI; and the third is to combine them altogether.                </p>
-                <p class="lh-lg">
-                    With the possibility of increased input and output in the future, we determined to separate input and output to save user waiting time.
-                </p>
-                <img src="../../asset/img/RemoteIO/RemoteIO_competitiveanalysis2.jpg" class="img-fluid mx-auto d-block pb-3" alt="">
+    <div class="bg-orange py-5">
+        <div class="container ">
+            <div class="row">
+                <div class="col-12">
+                    <h4 class="fw-bold pb-3" data-lang="project_2/research"></h4>
+                    <p class="lh-lg" data-lang="project_2/research_text_1"></p>
+                    <p class="lh-lg" data-lang="project_2/research_text_2"></p>
+                    <span class="lh-lg" data-lang="project_2/research_text_3"></span>
+                    <span class="lh-lg fw-bold" data-lang="project_2/research_text_4"></span>
+                    <img src="../../asset/img/RemoteIO/RemoteIO_competitiveanalysis2.jpg" class="img-fluid mx-auto d-block pb-3" alt="">
+                </div>
             </div>
         </div>
     </div>
 
 
-    <!-- Define System Framework -->
-    <div class="container pb-5">
-        <div class="row">
-            <div class="col-12">
-                <h4 class="fw-bold pb-3">Define System Framework</h4>
-                <p class="lh-lg">
-                    Integrate firmware and software engineers' practical experience, as well as common design patterns. I manage the Remote IO app's information architecture. Also, utilize wireflow to check the app's flow.
-                </p>
-                <p class="fs-6 fw-bold pt-4">
-                    Information Architecture
-                </p>
-                <img src="../../asset/img/RemoteIO/RemoteIO_framework.jpg" class="img-fluid mx-auto d-block pb-3" alt="">
-                <p class="fs-6 fw-bold pt-4">
-                    Wireflow
-                </p>
-                <img src="../../asset/img/RemoteIO/RemoteIO_wireflow.jpg" class="img-fluid mx-auto d-block pb-3" alt="">
-                
+    <!-- System Framework -->
+    <div class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h4 class="fw-bold pb-3" data-lang="project_2/framework"></h4>
+                    <p class="lh-lg" data-lang="project_2/framework_text"></p>
+                    <p class="fs-6 fw-bold pt-4" data-lang="project_2/framework_title_1"></p>
+                    <img src="../../asset/img/RemoteIO/RemoteIO_framework.jpg" class="img-fluid mx-auto d-block pb-3" alt="">
+                    <p class="fs-6 fw-bold pt-4" data-lang="project_2/framework_title_2"></p>
+                    <img src="../../asset/img/RemoteIO/RemoteIO_wireflow.jpg" class="img-fluid mx-auto d-block pb-3" alt="">
+                </div>
             </div>
         </div>
     </div>
 
-
-    <!-- Design ＆ Test -->
-    <div class="container pb-5">
-        <div class="row">
-            <div class="col-12">
-                <h4 class="fw-bold pb-3">Design</h4>
-                <p class="lh-lg">
-                    It is a significant task for me to construct a Remote IO app while also built design system for app. I gathered all previous app design patterns and ui components. After organizing a base version, I designed iteratively. It helps me in building user interfaces quickly.                </p>
-                <p>
-                    The most important thing to remember is that the app and the goods are linked via Bluetooth. Because it reads addresses one by one, we must account for the time the user waits.
-                </p>
-
-                <img src="../../asset/img/RemoteIO/RemoteIO.gif" class="img-fluid mx-auto d-block pb-3" alt="">
+    <!-- Design system -->
+    <div class="bg-orange py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h4 class="fw-bold pb-3" data-lang="project_2/design_guideline"></h4>
+                    <p class="lh-lg" data-lang="project_2/design_guideline_text_1"></p>
+                    <p class="lh-lg" data-lang="project_2/design_guideline_text_2"></p>
+                    <img src="../../asset/img/RemoteIO/RemoteIO_designsystem1.jpg" class="img-fluid mx-auto d-block pb-3" alt="">
+                    <img src="../../asset/img/RemoteIO/RemoteIO_designsystem2.png" class="img-fluid mx-auto d-block pb-3" alt="">
+                </div>
             </div>
         </div>
     </div>
 
+    <!-- Design -->
+    <div class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h4 class="fw-bold pb-3" data-lang="project_2/final_design"></h4>
+                        <h5 class="fw-bold" data-lang="project_2/final_design_title_1"></h5>
+                            <p class="lh-lg" data-lang="project_2/final_design_text_1"></p>
+                            <img src="../../asset/img/RemoteIO/RemoteIO_design1.jpg" class="img-fluid mx-auto d-block pb-5" alt="">
+                        <h5 class="fw-bold" data-lang="project_2/final_design_title_2"></h5>
+                            <p class="lh-lg" data-lang="project_2/final_design_text_2"></p>
+                            <img src="../../asset/img/RemoteIO/RemoteIO_design2.jpg" class="img-fluid mx-auto d-block pb-5" alt="">
+                        <h5 class="fw-bold" data-lang="project_2/final_design_title_3"></h5>
+                            <p class="lh-lg" data-lang="project_2/final_design_text_3"></p>
+                            <img src="../../asset/img/RemoteIO/RemoteIO_design3.jpg" class="img-fluid mx-auto d-block pb-5" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Take away -->
-    <div class="container pb-5">
-        <h4 class="fw-bold pb-3">Take away</h4>
-        <div class="row">
-            <div class="col-12 pb-3">
-                <p class="lh-lg">
-                    Understanding the Modbus table proved to be a significant issue for me in this project. I collaborate with firmware and software developers to identify the significance of each register address and use personal experience as an analogy. Another area that requires study is the limitations and uses of Bluetooth communication. This knowledge helps me with my designs and proposals.
-                </p>
-                <p class="lh-lg">
-                    It was the first time I had created a product that required entering Engineering mode, and I was quite excited. In addition to the obvious users, the product must contain hidden features for technical personnel, and the orientation must be considerably different. This project provided me with expertise in engineering pattern creation, which will benefit me in the future when building testing and debugging features.
-                </p>
-            </div>
+    <div class="bg-orange py-5">
+        <div class="container">
+            <h4 class="fw-bold pb-3" data-lang="project_2/take_away"></h4>
+                <h5 class="lh-lg fw-bold" data-lang="project_2/take_away_title_1"></h5>
+                    <p class="lh-lg pb-3" data-lang="project_2/take_away_text_1"></p>
+                <h5 class="lh-lg fw-bold" data-lang="project_2/take_away_title_2"></h5>
+                    <p class="lh-lg pb-3" data-lang="project_2/take_away_text_2"></p>
+                <h5 class="lh-lg fw-bold" data-lang="project_2/take_away_title_3"></h5>
+                    <p class="lh-lg pb-3" data-lang="project_2/take_away_text_3"></p>
         </div>
     </div>
 
@@ -204,12 +231,13 @@
     </div>
 
 
+
     <!-- footer -->
     <script src="../js/footer.js"></script>
             
-
-
-
+    <!-- language -->
+    <script src="../js/lang_project_2.js"></script>
+    
     <!-- JavaScript : Bootstrap Bundle with Popper -->
     <script src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="../js/main.js"></script>
