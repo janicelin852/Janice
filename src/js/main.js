@@ -51,6 +51,11 @@ var list = [
       btn:'Remote IO App'
   },
   {
+    title:'Design System | Janice Lin',
+    src:'https://janicelin852.github.io/JaniceLin/src/page/DesignSystem.html',
+    btn:'Design System'
+},
+  {
       title:'Smart Tunnel Light | Janice Lin',
       src:'https://janicelin852.github.io/JaniceLin/src/page/SmartTunnelLight.html',
       btn:'Smart Tunnel Light Experience'
