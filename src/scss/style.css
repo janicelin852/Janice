@@ -23,6 +23,9 @@ body{
 .bg-blue{
     background: #F2F1FF ;
 }
+.bg-gray{
+    background: #eeeeee ;
+}
 
 .text-title{
     font-family: 'Playfair Display', serif;
