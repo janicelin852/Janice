@@ -1,6 +1,6 @@
 $(document).ready(function(){
 // control navbar
-  if(document.title == 'Design System | Janice Lin' || document.title == 'Janice Lin | Portfolio' || document.title == 'EMS | Janice Lin' || document.title == 'Remote IO App | Janice Lin'  || document.title == 'Smart Tunnel Lighting | Janice Lin'){
+  if(document.title == 'Design System | Janice Lin' || document.title == 'Janice Lin | Portfolio' || document.title == 'EMS | Janice Lin' || document.title == 'Remote IO App | Janice Lin'  || document.title == 'Smart Tunnel Lighting Experience | Janice Lin'){
     document.getElementById("menu_work").classList.add('active');
 
   }else if(document.title == 'About | Janice Lin'){
