@@ -1,6 +1,6 @@
 $(document).ready(function(){
 // control navbar
-  if(document.title == 'Janice Lin | Portfolio' || document.title == 'EMS | Janice Lin' || document.title == 'Remote IO App | Janice Lin'  || document.title == 'Design System | Janice Lin' || document.title == 'Smart Tunnel Lighting Experience | Janice Lin'){
+  if(document.title == 'Janice Lin | Portfolio' || document.title == 'EMS | Janice Lin' || document.title == 'Remote IO App | Janice Lin'  || document.title == 'Design System | Janice Lin' || document.title == 'Smart Tunnel Lighting | Janice Lin'){
     document.getElementById("menu_work").classList.add('active');
 
   }else if(document.title == 'About | Janice Lin'){
@@ -56,9 +56,9 @@ $(document).ready(function(){
         btn:'Design System'
   },
     {
-        title:'Smart Tunnel Lighting Experience | Janice Lin',
+        title:'Smart Tunnel Lighting | Janice Lin',
         src:'https://janicelin852.github.io/JaniceLin/src/page/SmartTunnelLight.html',
-        btn:'Smart Tunnel Lighting Experience'
+        btn:'Smart Tunnel Lighting'
     },
     
   ];
