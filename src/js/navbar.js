@@ -23,15 +23,15 @@ $(document).ready(function(){
 navbar = 
         '<nav class="navbar navbar-expand-lg navbar-light bg-transparent pt-4 pb-5">\
             <div class="container">\
-                <a class="navbar-brand" href="https://janicelin852.github.io/JaniceLin" id="home">Janice Lin</a>\
+                <a class="navbar-brand" id="home">Janice Lin</a>\
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">\
                         <span class="navbar-toggler-icon"></span>\
                     </button>\
                 <div class="collapse navbar-collapse justify-content-end" id="navbar">\
                     <div class="navbar-nav">\
-                        <a class="nav-link" href="https://janicelin852.github.io/JaniceLin" id="menu_work" data-lang="navbar/work"></a>\
-                        <a class="nav-link" href="https://janicelin852.github.io/JaniceLin/src/page/about.html" id="menu_about" data-lang="navbar/about"></a>\
-                        <a class="nav-link" href="https://janicelin852.github.io/JaniceLin/asset/JaniceLin_Resume.pdf" target="_blank" id="menu_resume" data-lang="navbar/resume"></a>\
+                        <a class="nav-link" id="menu_work" data-lang="navbar/work"></a>\
+                        <a class="nav-link" id="menu_about" data-lang="navbar/about"></a>\
+                        <a class="nav-link" target="_blank" id="menu_resume" data-lang="navbar/resume"></a>\
                         <a class="nav-link" id="lang_switch" >\
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-translate" viewBox="0 0 16 16">\
                             <path d="M4.545 6.714 4.11 8H3l1.862-5h1.284L8 8H6.833l-.435-1.286H4.545zm1.634-.736L5.5 3.956h-.049l-.679 2.022H6.18z"/>\
