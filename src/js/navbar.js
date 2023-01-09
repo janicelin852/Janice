@@ -1,7 +1,29 @@
+$(document).ready(function(){
+    const html_name = location.href.split("/").pop()
+    let home=''
+    let page=''
+    let resume=''
+    if(html_name==''){
+        home = ''
+        page = 'src/page/'
+        resume = 'asset/'
+    }
+    else{
+        home = '../../'
+        page = ''
+        resume = '../../asset/'
+    }
+    document.getElementById("home").setAttribute("href",home);
+    document.getElementById("menu_work").setAttribute("href",home);
+    document.getElementById("menu_about").setAttribute("href",page+"about.html");
+    document.getElementById("menu_resume").setAttribute("href",resume+"JaniceLin_Resume.pdf");
+});
+
+
 navbar = 
         '<nav class="navbar navbar-expand-lg navbar-light bg-transparent pt-4 pb-5">\
             <div class="container">\
-                <a class="navbar-brand" href="https://janicelin852.github.io/JaniceLin">Janice Lin</a>\
+                <a class="navbar-brand" href="https://janicelin852.github.io/JaniceLin" id="home">Janice Lin</a>\
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">\
                         <span class="navbar-toggler-icon"></span>\
                     </button>\
@@ -22,3 +44,4 @@ navbar =
             </div>\
         </nav>';
 document.write(navbar); 
+
