@@ -42,22 +42,22 @@ $(document).ready(function(){
   var list = [
     {
         title:'EMS | Janice Lin',
-        src:'https://janicelin852.github.io/JaniceLin/src/page/EMS.html',
+        src:'EMS.html',
         btn:'The Energy Management System(EMS)'
     },
     {
         title:'Remote IO App | Janice Lin',
-        src:'https://janicelin852.github.io/JaniceLin/src/page/RemoteIO.html',
+        src:'RemoteIO.html',
         btn:'Remote IO App'
     },
     {
         title:'Design System | Janice Lin',
-        src:'https://janicelin852.github.io/JaniceLin/src/page/DesignSystem.html',
+        src:'DesignSystem.html',
         btn:'Design System'
   },
     {
         title:'Smart Tunnel Lighting | Janice Lin',
-        src:'https://janicelin852.github.io/JaniceLin/src/page/SmartTunnelLight.html',
+        src:'SmartTunnelLight.html',
         btn:'Smart Tunnel Lighting'
     },
     
